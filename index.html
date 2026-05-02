@@ -2,47 +2,45 @@
 <html>
 
   <head>
+
+    <title>Grocery List on Lock Screen | Links</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <style>
-      .content {
+      body {
+        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 480px;
-        
+      }
+      .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .item {
+        color: white;
       }
     </style>
-
-    <title>Grocery List on Lock Screen | Links</title>
 
   </head>
 
   <body style="background-image: linear-gradient(to bottom right, #332600, #b48700); background-attachment: fixed;">
 
-    <div class="content">
+    <div class="column">
 
-    <div>
+      <div class="column">
+        <img src="ic_launcher.svg" style="width:288px; height:288px;"/>
+        <p style="font-family:Inter; font-weight:400; font-size: xx-large; color: white;">Grocery List</p>
+      </div>
 
-    <img
-      src="ic_launcher.svg"
-      style="width:192px; height:192px;"
-    />
+      <a href="https://play.google.com/store/apps/details?id=app.grocery.list">
+        <img src="GetItOnGooglePlay_Badge_Web_color_English.svg" alt="Get it on Google Play" style="width:540px; height:159px;"/>
+      </a>
 
-    <p style="font-family:Inter; font-weight:500; font-size: x-large; color: white;">Grocery List</p>
-
-
-    <a href="https://play.google.com/store/apps/details?id=app.grocery.list">
-      <img
-        src="GetItOnGooglePlay_Badge_Web_color_English.svg"
-        alt="Get it on Google Play"
-        style="width:360px; height:106px;"
-      />
-    </a>
-
-    </div>
     </div>
 
   </body>
