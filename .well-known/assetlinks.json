@@ -3,7 +3,9 @@
   "target": {
     "namespace": "android_app",
     "package_name": "app.grocery.list",
-    "sha256_cert_fingerprints":
-    ["A8:2E:2B:F7:C8:E6:28:88:F8:61:87:4A:9C:E5:2B:46:03:2E:98:71:3D:C0:4E:0B:58:81:8C:2B:50:8F:60:73", "AB:B7:5F:80:A6:09:B9:B0:62:E7:EB:8B:A2:98:D0:4F:91:86:DC:65:59:F5:B3:26:C6:A2:6C:FB:C1:25:54:6B"]
+    "sha256_cert_fingerprints": [
+      "A8:2E:2B:F7:C8:E6:28:88:F8:61:87:4A:9C:E5:2B:46:03:2E:98:71:3D:C0:4E:0B:58:81:8C:2B:50:8F:60:73",
+      "AB:B7:5F:80:A6:09:B9:B0:62:E7:EB:8B:A2:98:D0:4F:91:86:DC:65:59:F5:B3:26:C6:A2:6C:FB:C1:25:54:6B"
+    ]
   }
 }]
